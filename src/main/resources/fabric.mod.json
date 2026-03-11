@@ -2,21 +2,20 @@
   "schemaVersion": 1,
   "id": "$id",
   "version": "$version",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "ServerPulse",
+  "description": "Lightweight HTTP API exposing real-time server TPS and MSPT metrics.",
   "authors": [
-    "Me!"
+    "Trirrin"
   ],
   "contact": {
-    "homepage": "https://github.com/RMS-Server/preprocessor-example-mod",
-    "sources": "https://github.com/RMS-Server/preprocessor-example-mod"
+    "sources": "https://github.com/Trirrin/ServerPulse"
   },
   "license": "GPL-3.0",
   "icon": "assets/$id/icon.png",
-  "environment": "*",
+  "environment": "server",
   "entrypoints": {
     "main": [
-      "com.example.ExampleMod"
+      "cn.net.rms.serverpulse.ServerPulse"
     ]
   },
   "mixins": [
